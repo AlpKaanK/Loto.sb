@@ -14,7 +14,7 @@ column[10] = " J "
 
 
 
-TextWindow.Write(" Kolon Sayısı Giriniz : ")
+TextWindow.Write(" Column Number : ")
 z = TextWindow.ReadNumber()
 
 For t = 1 to z
@@ -27,7 +27,7 @@ EndFor
 
 
 
-  
+ 
 Sub Random
 For i = 1 To 6
   nums[i] = Math.GetRandomNumber(49)
